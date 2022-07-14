@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'verdana';
+}
+
+.header{
+    background: rgb(16, 72, 123);
+    border: 1px solid #36454f;
+    padding: 0.5%;
+}
+.logo{
+    width: 10%;
+    float: center;
+}
+
+.header h1{
+    float: center;
+    margin: 3% 2%;
+    color: azure;
+}
+
+body {
+	background-size: 100% 100%;
+}
+
+.menu{
+    background: rgb(16, 72, 123);
+}
+
+.menu li{
+    list-style: none;
+    padding: 0px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgb(28, 108, 173);
+}
+
+#formulario{
+    margin: 1% auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 97%;
+    padding: 1%;
+}
+
+.divTable{
+    display: table;
+    margin: 0px 25%;
+    width: 50%;  
+}
+
+.divTable2{
+    display: table;
+    margin: 0px 10%;
+    width: 80%;  
+}
+.divTable3{
+    display: table;
+    margin: 0px 2%;
+    width: 95%;  
+}
+
+.divTableRow {
+    display: table-row;
+}
+.divTableCell {
+	display: table-cell;
+    padding: 10px 10px;
+    font-family: 'verdana';
+    text-align: center;
+}
+.divTableCellBorderW {
+	display: table-cell;
+    padding: 10px 10px;
+    font-family: 'verdana';
+    border-bottom:1px solid rgb(28, 108, 173);
+    text-align: center;
+}
+.divTableCellBorderL {
+	display: table-cell;
+    padding: 10px 10px;
+    font-family: 'verdana';
+    border-top:1px solid rgb(28, 108, 173);
+    text-align: center;
+}
+.divTableBody {
+    display: table-row-group;
+}
+
+select {
+    font-family: 'verdana';
+    font-size: 80%;
+    height: 35px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.label {
+    font-family: 'verdana';
+    font-size: 12px;
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+.radio {
+    font-family: 'verdana';
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    padding: 5%;
+}
+
+.textbox {
+    width: 25%;
+    padding: 0.7%;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+
+.divTableCell i{   
+    border: solid 1px #ccc;
+    background-color: #ddd;
+    padding: 10px 10px 6px 10px; 
+    margin-right: 0px;  
+    vertical-align: top;
+    color: #888;
+    height: 25%;
+    border-radius: 5px 0 0 5px;
+}
+
+button {   
+    margin-top: 15px;
+    height: 40px;
+    background: #1668C4;
+    color: #fff;
+    border: none;
+    border-radius:  5px 5px 5px 5px;
+    width: 25%;
+    margin-bottom: 2px;
+}
+
+.but_green {   
+    background: green;
+}
+
+.but_red {   
+    background: maroon;
+}
+
+.but_teal {
+    background: teal;
+}
+
+button:hover {
+    background: #36454f;
+    cursor:pointer;
+}
+
+.centro{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .divTable{
+        display: table;
+        width: 100%;
+    }
+    .divTableRow {
+        display: table-row;
+    }
+    .divTableCell {
+        display: table-row;
+    }
+    .divTableBody {
+        display: table-row-group;
+    }
+  }
+
+.field-container div {
+    display: inline-block;
+    vertical-align: top;
+}
+.field-container i{   
+    border: solid 1px #ccc;
+    background-color: #ddd;
+    padding: 5px 5px 6px 5px; 
+    margin-right: -7px;  
+    vertical-align: top;
+    color: #888;
+    height: 19px;
+    border-radius: 5px 0 0 5px;
+}
+
+.field {
+    border:solid 1px #ccc;
+    padding: 5px;
+    height: 20px;
+    border-radius:  0 5px 5px 0;
+    font-size: 12px;
+    font-family: verdana;
+    width: 77%;
+}
+
+.field_s {
+    border:solid 1px #ccc;
+    padding: 5px;
+    height: 32px;
+    border-radius:  0 5px 5px 0;
+    font-size: 12px;
+    font-family: verdana;
+}
+
+input {
+    height: 32;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border:1px solid #ccc;
+}
+
+.columns >div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: -4px;
+}
+
+.columns2 >div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-right: -10px;
+}
+
+.columns .field{
+    width: 70%;
+}
+
+.titulo{
+    font-family: 'verdana';
+    font-size: 200%;
+    width: 100%;
+    margin-left: 30%;
+    color: white;
+}

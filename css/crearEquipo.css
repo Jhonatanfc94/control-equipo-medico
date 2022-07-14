@@ -1,0 +1,235 @@
+*{
+    font-family: 'verdana';
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: rgb(16, 72, 123);
+    border: 1px solid #36454f;
+    padding: 0.5%;
+}
+.logo{
+    width: 10%;
+    float: center;
+}
+
+.header h1{
+    float: right;
+    margin: 3% 2%;
+    color: azure;
+}
+
+body {
+	background-size: 100% 100%;
+}
+
+.menu{
+    background: rgb(16, 72, 123);
+}
+
+.menu li{
+    list-style: none;
+    padding: 0px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgb(28, 108, 173);
+}
+
+form {
+    margin: 1% auto;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 95%;
+    padding: 1%;
+}
+
+select {
+    font-family: 'verdana';
+    font-size: 80%;
+    height: 35px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 32px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 5px;
+    border:1px solid #ccc;
+}
+
+textarea {
+    margin-bottom: 20px;
+    resize:vertical;
+    max-height: 200px;
+    min-height: 50px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #1668C4;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    height: 50px;
+    background: #1668C4;
+    color: #fff;
+    border: none;
+    border-radius:  5px 5px 5px 5px;
+    width: 82%;
+    margin-bottom: 2px;
+}
+
+.but_green {   
+    background: green;
+}
+
+.but_green {   
+    background: green;
+}
+
+.but_green2 {   
+    width: 200px;
+    background: green;
+}
+
+.but_red {   
+    background: maroon;
+}
+
+.but_teal {
+    background: teal;
+}
+
+.but_teal2 {
+    width: 200px;
+    background: teal;
+}
+
+button {   
+    margin-bottom: 0;
+    height: 50px;
+    background: #1668C4;   
+    color: #fff;
+    border: none;
+    border-radius:  5px 5px 5px 5px;
+    width: 82%;
+    margin-bottom: 2px;
+}
+
+button:hover {
+    background: #36454f;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background: #36454f;
+    cursor:pointer;
+}
+
+.field-container div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.columns >div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-right: -5px;
+}
+
+.columns2 >div {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-right: -10px;
+}
+
+.columns .field{
+    width: 80%
+}
+
+.field_s{
+    width: 82%
+}
+
+.centrar {
+    justify-content: center;
+    text-align: center;
+}
+
+.check {
+    text-align: center;
+}
+
+.field_c{
+    border:solid 1px #ccc;
+    padding: 5px;
+    height: 20px;
+    border-radius:  5px 5px 5px 5px;
+    font-size: 12px;
+    font-family: verdana;
+    width: 85%; 
+}
+
+.field-container i{   
+    border: solid 1px #ccc;
+    background-color: #ddd;
+    padding: 5px 5px 6px 5px; 
+    margin-right: -5px;  
+    vertical-align: top;
+    color: #888;
+    height: 19px;
+    border-radius: 5px 0 0 5px;
+    width: 18px;
+}
+
+.field {
+    border:solid 1px #ccc;
+    padding: 5px;
+    height: 20px;
+    border-radius:  0 5px 5px 0;
+    font-size: 12px;
+    font-family: verdana;
+    width: 77%;
+}
+
+.field_s {
+    border:solid 1px #ccc;
+    padding: 5px;
+    height: 32px;
+    border-radius:  0 5px 5px 0;
+    font-size: 12px;
+    font-family: verdana;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns >div {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        margin-right: -4px;
+    }
+}
+
+.titulo{
+    font-family: 'verdana';
+    font-size: 200%;
+    width: 100%;
+    margin-left: 30%;
+    color: white;
+}
